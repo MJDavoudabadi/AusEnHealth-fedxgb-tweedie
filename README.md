@@ -29,6 +29,7 @@ by the script if missing:
 The script expects one subfolder per client under a single root directory,
 each containing a chronological three-way split:
 
+````
 data_root/
 ├── ClientA/
 │   ├── train.csv
@@ -39,6 +40,7 @@ data_root/
 │   ├── es_valid.csv
 │   └── test.csv
 └── ...
+````
 
 
 - `train.csv` — grows trees (both the federated and centralised models)
