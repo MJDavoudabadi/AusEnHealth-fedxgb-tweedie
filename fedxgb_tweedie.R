@@ -106,10 +106,10 @@ suppressPackageStartupMessages({
 # =============================================================================
 
 # Real dataset root
-# data_root <- "C:/Users/davoudab/OneDrive - Queensland University of Technology/Desktop/RF/AusEnHealth project/R code/Dataset_Google_Cloud/states_2ageGroup_agg_cause_sex_lags_summer_erpmin50_3way"
+# data_root <- "DATA_ROOT"
 
 # Simulated dataset root
-data_root <-"C:/Users/davoudab/OneDrive - Queensland University of Technology/Desktop/RF/AusEnHealth project/R code/simulated_dataset_3way"
+data_root <-"DATA_ROOT"
 
 output_dir <- "fl_output_agg_lags_3way"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
